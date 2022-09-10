@@ -1,0 +1,360 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+
+{% block title %}hghfhf{% endblock %}
+
+
+
+{% block content %}
+
+<header class="header">
+    <div class="container">
+        <div class="header_wrapper">
+
+            <div class="header_block">
+                <a href="#!" class="header_logo">
+                    <img src="{% static 'main/img/logo.png' %}" alt="header_logo">
+                </a>
+            </div>
+            <!-- header_block end -->
+            <nav class="header_nav">
+                <ul class="header_list">
+                    <li class="header_item">
+                        <a href="#!" class="header_link active">Main</a>
+                    </li>
+                    <li class="header_item">
+                        <a href="#!" class="header_link">Our services</a>
+                    </li>
+                    <li class="header_item">
+                        <a href="#!" class="header_link">About</a>
+                    </li>
+                    <li class="header_item">
+                        <a href="#!" class="header_link">Contacts</a>
+                    </li>
+                </ul>
+
+                <div class="header_nav-close">
+                    <span class="header_nav-close-line"></span>
+                    <span class="header_nav-close-line"></span>
+                </div>
+            </nav>
+
+            <div class="header_block">
+                <div class="header_lng">
+                    <a href="#!" class="header_lng-link">Ru</a>
+                    <a href="#!" class="header_lng-link active">En</a>
+                </div>
+
+            </div>
+            <div class="header_burger burger">
+                <span class="burger_line burger_line_first"></span>
+                <span class="burger_line burger_line_second"></span>
+                <span class="burger_line burger_line_third"></span>
+            </div>
+
+
+        </div>
+        <!-- header_wrapper end -->
+    </div>
+    <!-- container end -->
+
+</header>
+
+<main class="main">
+    <!-- Intro start -->
+    <section class="intro" style="background-image:url('static/main/img/road.jpg');">
+        <div class="container">
+            <div class="intro_content">
+                <div class="intro_block">
+                    <h1 class="intro_title">
+                        KEEPING YOU ON THE ROAD WITH
+                        SERVICE YOU CAN TRUST
+                    </h1>
+                    <a href="#!" class="btn">
+                        Show more
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="info">
+        <div class="container">
+            <div class="wrapper">
+                <div class="block">
+                    <div class="info_item">
+                        <div class="info_img">
+                            <img src="{% static 'main/img/phone.svg' %}" alt="phone">
+                        </div>
+                        <h3 class="info_title">
+                            CALL US NOW 222-222-222
+                        </h3>
+                        <p class="info_text">
+                            Feel free to call us
+                        </p>
+                    </div>
+                </div>
+<!--               INFO BLOCK END -->
+                <div class="block">
+                    <div class="info_item">
+                        <div class="info_img">
+                            <img src="{% static 'main/img/cal.svg' %}" alt="phone">
+                        </div>
+                        <h3 class="info_title">
+                            GET FREE APPOITMET
+                        </h3>
+                        <p class="info_text">
+                            Free Diagnosis & Brake Checks
+                        </p>
+                    </div>
+                </div>
+<!--               INFO BLOCK END -->
+                <div class="block">
+                    <div class="info_item">
+                        <div class="info_img">
+                            <img src="{% static 'main/img/pil.svg' %}" alt="phone">
+                        </div>
+                        <h3 class="info_title">
+                            FIND US ON MAP
+                        </h3>
+                        <p class="info_text">
+                            New York, 1286 Ruumu Nanor
+                        </p>
+                    </div>
+                </div>
+<!--               INFO BLOCK END -->
+            </div>
+<!--            INFO WRAPPER END-->
+        </div>
+<!--       CONTEINER END -->
+    </section>
+
+<!--    SERVICE START-->
+    <section class="section">
+        <div class="container">
+            <h2 class="block_title">
+                OUR SERVICES
+            </h2>
+            <a href="#!" class="block_link">
+                VIEW ALL SERVICES
+            </a>
+            <div class="wrapper">
+<!--               WRAPPER -->
+                <div class="block">
+<!--                    CONTAINER-->
+                    <a class="services_item">
+                        <div class="services_content" style="background-image:url('static/main/img/diagnostic.jpg');">
+                            <div class="services_content-item">
+                                <div class="services_img">
+                                <img src="{% static 'main/img/pluc1.svg' %}" alt="pluc">
+                            </div>
+                            <p class="services_text">
+                                ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH
+                            </p>
+                            </div>
+
+                        </div>
+                        <h3 class="services_title">
+                            DIAGNOSTIC
+                        </h3>
+                    </a>
+                </div>
+
+                <div class="block">
+                    <a class="services_item">
+                        <div class="services_content" style="background-image:url('static/main/img/tires.jpg');">
+                            <div class="services_content-item">
+                                <div class="services_img">
+                                <img src="{% static 'main/img/pluc1.svg' %}" alt="pluc">
+                            </div>
+                            <p class="services_text">
+                                ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH
+                            </p>
+                            </div>
+
+                        </div>
+                        <h3 class="services_title">
+                            TIRES & WHEELS
+                        </h3>
+                    </a>
+                </div>
+
+                <div class="block">
+                    <a class="services_item">
+                        <div class="services_content" style="background-image:url('static/main/img/engine.jpg');">
+                            <div class="services_content-item">
+                                <div class="services_img">
+                                <img src="{% static 'main/img/pluc1.svg' %}" alt="pluc">
+                            </div>
+                            <p class="services_text">
+                                ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH
+                            </p>
+                            </div>
+
+                        </div>
+                        <h3 class="services_title">
+                            ENGINES
+                        </h3>
+                    </a>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+<!--SERVICE END-->
+
+<!--  ABOUT  START-->
+    <section class="section about">
+        <div class="container">
+            <div class="about_wrapper">
+                <div class="about_block">
+                    <h2 class="block_title text-white">
+                        WE UNDERSTAND HOW IMPORTANT IT IS TO FIND THE RIGHT AUTO SERVICE
+                    </h2>
+                    <p class="about_text">
+                        Car repairs and maintenance can be expensive and no one wants to have pay to repair damage caused by shoddy repair service. When you bring your car into our auto shop, you won’t have to worry because our staff is comprised of ASE certified technicians who are committed to making sure you have a safe dependable car.
+                    </p>
+                    <a href="#!" class="about_link">
+                        MORE ABOUT US
+                    </a>
+                </div>
+<!--              ABOUT_BLOCK  -->
+                <img src="{% static 'main/img/eng.jpg' %}" alt="what" class="about_img">
+            </div>
+<!--            ABOUT WRAPPER-->
+
+        </div>
+<!--        CONTAINER-->
+    </section>
+<!-- ABOUT END -->
+
+<!--START-->
+    <section class="section process">
+        <div class="container">
+            <h2 class="process_title">
+                FAST & EASY
+            </h2>
+            <h3 class="process_subtitle">
+                our work process
+            </h3>
+
+            <div class="wrapper">
+                <div class="block">
+                    <div class="process_item">
+                        <h4 class="info_title">
+                        1.Request your quote
+                    </h4>
+                    <p class="info_text">
+                        We will be there when you most need us
+                    </p>
+                    </div>
+                </div>
+
+                <div class="block">
+                    <div class="process_item">
+                        <h4 class="info_title">
+                        02. BRING YOUR VEHICLE
+                    </h4>
+                    <p class="info_text">
+                        We are car guys at heart
+                    </p>
+                    </div>
+                </div>
+
+                <div class="block">
+                    <div class="process_item">
+                        <h4 class="info_title">
+                        03. GET IT REPAIRED
+                    </h4>
+                    <p class="info_text">
+                        High quality, low cost car servicing
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--        CONTAINER-->
+    </section>
+<!--    CONTACT START-->
+    <section class="contacts">
+        <div class="container">
+            <h2 class="block_title text-white">
+                Contact us
+            </h2>
+
+            <form class="contacts_form" action="">
+                <div class="form_row">
+                    <div class="form_group">
+                        <input type="text" class="input" placeholder=" ">
+                        <label for="" class="label">
+                            Name
+                        </label>
+                    </div>
+                    <div class="form_group">
+                        <input type="text" class="input" placeholder=" ">
+                        <label for="" class="label">
+                            Last name
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form_row">
+                    <div class="form_group">
+                        <input type="email" class="input" placeholder=" ">
+                        <label for="" class="label">
+                            Email
+                        </label>
+                    </div>
+                    <div class="form_group">
+                        <input type="tel" class="input" placeholder=" ">
+                        <label for="" class="label">
+                            Phone
+                        </label>
+                    </div>
+                </div>
+                <div class="form_row">
+                    <div class="form_group">
+                        <textarea class="textarea" placeholder=" " name=""></textarea>
+                        <label for="" class="label">
+                            Message
+                        </label>
+                    </div>
+                </div>
+                <button class="btn" type="submit">
+                    Send
+                </button>
+            </form>
+<!--            END FORM-->
+        </div>
+    </section>
+<!--    CONTACT END-->
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer_wrapper">
+            <p class="cop">
+                © 2021 Auto theme by Frontend Tricks
+            </p>
+            <div class="footer_soc">
+                <a href="#!" class="footer_soc-link">
+                    <img src="{% static '/main/img/in.svg' %}" alt="int">
+                </a>
+                <a href="#!" class="footer_soc-link">
+                    <img src="{% static '/main/img/f.svg' %}" alt="f">
+                </a>
+                <a href="#!" class="footer_soc-link">
+                    <img src="{% static '/main/img/inst.png' %}" alt="inst">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+{% endblock %}
